@@ -1,0 +1,6 @@
+for _ in range(5):
+    K = int(input())
+    if K == 1 or (K >= 4 and K % 4 == 0):
+        print("YES")
+    else:
+        print("NO")
